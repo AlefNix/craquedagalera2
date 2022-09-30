@@ -1,7 +1,7 @@
 const forma = document.getElementById('votos');
 forma.addEventListener('submit',(e)=>{
 
-    localStorage.setItem("rodada3b","rodada3b");
+    localStorage.setItem("rodada4","rodada4");
     document.getElementById("btn").disabled = true;
     document.getElementById("10").disabled = true;
     document.getElementById("9").disabled = true;
